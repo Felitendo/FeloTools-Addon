@@ -18,14 +18,14 @@ criticism! :)
         <td>🦖 User</td>
         <td>🐱‍💻 Type of contribution</td>
     </thead>
+        <tr>
+            <td><a href="https://discord.com/users/340759168380305411">JarDateien</a></td>
+            <td>General Code help</td>
+        </tr>
     <tbody>
         <tr>
             <td><a href="https://github.com/DoJapHD">DoJapHD</a></td>
             <td>Base Code</td>
-        </tr>
-        <tr>
-            <td><a href="https://discord.com/users/340759168380305411">JarDateien</a></td>
-            <td>General Code help</td>
         </tr>
 </table>
 <br>
