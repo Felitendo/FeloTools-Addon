@@ -1,4 +1,4 @@
-rootProject.name = "sendserveraddon"
+rootProject.name = "felotools"
 
 pluginManagement {
     val labyGradlePluginVersion = "0.3.44"

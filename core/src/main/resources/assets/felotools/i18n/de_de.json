@@ -1,7 +1,7 @@
 {
-  "sendserveraddon": {
+  "felotools": {
     "settings": {
-      "name": "Send To Server",
+      "name": "FeloTools",
       "enabled": {
         "name": "Aktiviert"
       },
@@ -24,19 +24,16 @@
         }
       },
       "navigation": {
-        "name": "Send To Server"
+        "name": "FeloTools"
       }
     },
     "commands": {
-      "send": {
-        "notfound": "§cKonnte den genutzten Shortcut nicht finden. Hast du diesen bereits hinzugefügt?"
-      },
       "general": {
         "syntax": "§cSyntax: %s"
       },
       "help": {
         "msg1": "§a--------- §6Hilfe §a---------",
-        "msg2": "§6/fthelp §7» §aSendet diese Hilfe-Nachricht.",
+        "msg2": "§6/ssahelp §7» §aSendet diese Hilfe-Nachricht.",
         "msg3": "§a-----------------------"
       }
     }

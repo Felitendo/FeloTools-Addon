@@ -1,9 +1,9 @@
 {
-  "sendserveraddon": {
+  "felotools": {
     "settings": {
-      "name": "Send To Server",
+      "name": "FeloTools",
       "enabled": {
-        "name": "Enabled"
+        "name": "Activated"
       },
       "openNameTags": {
         "name": "Edit Shortcuts"
@@ -11,32 +11,29 @@
     },
     "gui": {
       "manage": {
-        "add": "Add a new shortcut",
+        "add": "Add a new Shortcut",
         "name": "Shortcut",
         "custom": {
           "name": "Server IP"
         },
         "enabled": {
-          "name": "Enabled"
+          "name": "Disabled"
         },
         "remove": {
-          "title": "Are you sure you want to delete this entry?"
+          "title": "Do you really want to delete this Title?"
         }
       },
       "navigation": {
-        "name": "Send To Server"
+        "name": "FeloTools"
       }
     },
     "commands": {
-      "send": {
-        "notfound": "§cCouldn't find the used shortcut. Did you add it already?"
-      },
       "general": {
         "syntax": "§cSyntax: %s"
       },
       "help": {
         "msg1": "§a--------- §6Help §a---------",
-        "msg2": "§6/fthelp §7» §aSends this help message.",
+        "msg2": "§6/ssahelp §7» §aSends this Help Message.",
         "msg3": "§a-----------------------"
       }
     }
