@@ -1,6 +1,5 @@
 package de.felitendo.felotools.core;
 
-import de.felitendo.felotools.core.gui.activity.ShortcutActivity;
 import java.util.HashMap;
 import java.util.Map;
 import net.labymod.api.addon.AddonConfig;
@@ -18,26 +17,8 @@ public final class AddonConfiguration extends AddonConfig {
   @SwitchSetting
   private final ConfigProperty<Boolean> enabled = new ConfigProperty<>(true);
 
-  @Exclude
-  private final Map<String, ShortcutManager> shortcuts = new HashMap<>();
-
   public ConfigProperty<Boolean> enabled() {
     return this.enabled;
   }
 
-
-  public Map<String, ShortcutManager> getShortcuts() {
-    return this.shortcuts;
-  }
-
-  @MethodOrder(after = "enabled")
-  @ActivitySetting
-  public Activity openNameTags() {
-    return new ShortcutActivity(false);
-  }
-
-  public void removeInvalidNameTags() {
-    this.shortcuts.entrySet()
-        .removeIf(entry -> entry.getKey().isEmpty() || entry.getValue().getServerIp().isEmpty());
-  }
 }

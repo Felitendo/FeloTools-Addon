@@ -1,6 +1,6 @@
 package de.felitendo.felotools.core.commands;
 
-import de.felitendo.felotools.core.SendServerAddon;
+import de.felitendo.felotools.core.FeloToolsAddon;
 import net.labymod.api.client.chat.command.Command;
 import net.labymod.api.client.component.Component;
 import net.labymod.api.client.component.format.NamedTextColor;
@@ -9,19 +9,19 @@ import net.labymod.api.util.I18n;
 
 public class HelpCommand extends Command {
 
-  private final String syntax = "/ssahelp";
-  private final SendServerAddon addon;
+  private final String syntax = "/fthelp";
+  private final FeloToolsAddon addon;
 
-  public HelpCommand(SendServerAddon addon) {
-    super("ssahelp", "ssahelp");
+  public HelpCommand(FeloToolsAddon addon) {
+    super("fthelp", "fthelp");
     this.addon = addon;
   }
 
   @Override
   public boolean execute(String prefix, String[] arguments) {
-    if (prefix.equalsIgnoreCase("ssahelp")) {
+    if (prefix.equalsIgnoreCase("fthelp")) {
       if (arguments.length != 0) {
-        displayTranslatableMsg("sendserveraddon.commands.general.syntax", NamedTextColor.RED,
+        displayTranslatableMsg("felotools.commands.general.syntax", NamedTextColor.RED,
             syntax);
       } else {
         sendMessage();
@@ -32,28 +32,28 @@ public class HelpCommand extends Command {
   }
 
   public void sendMessage() {
-    displayTranslatableMsg("sendserveraddon.commands.help.msg1", NamedTextColor.GREEN);
-    displayTranslatableMsg("sendserveraddon.commands.help.msg2", NamedTextColor.GREEN);
-    displayTranslatableMsg("sendserveraddon.commands.help.msg3", NamedTextColor.GREEN);
-    displayTranslatableMsg("sendserveraddon.commands.help.msg4", NamedTextColor.GREEN);
-    displayTranslatableMsg("sendserveraddon.commands.help.msg5", NamedTextColor.GREEN);
+    displayTranslatableMsg("felotools.commands.help.msg1", NamedTextColor.GREEN);
+    displayTranslatableMsg("felotools.commands.help.msg2", NamedTextColor.GREEN);
+    displayTranslatableMsg("felotools.commands.help.msg3", NamedTextColor.GREEN);
+    displayTranslatableMsg("felotools.commands.help.msg4", NamedTextColor.GREEN);
+    displayTranslatableMsg("felotools.commands.help.msg5", NamedTextColor.GREEN);
   }
 
   private void displayTranslatableMsg(String key, TextColor textColor, Object... arguments) {
     String translationKey = key;
 
     if (key.equals("help.msg5")) {
-      String translation = I18n.translate("sendserveraddon.commands.help.msg1");
+      String translation = I18n.translate("felotools.commands.help.msg1");
       String HelpWorldlengthFirstSplit = translation.split("§6")[1];
       int HelpWorldlengthSecondSplitLength = HelpWorldlengthFirstSplit.split(" §a")[0].length();
-      StringBuilder sb = new StringBuilder(I18n.translate("sendserveraddon.commands.help.msg5"));
+      StringBuilder sb = new StringBuilder(I18n.translate("felotools.commands.help.msg5"));
       for (int i = 0; i < HelpWorldlengthSecondSplitLength - 5; i++) {
         sb.append("-");
       }
-      String message = SendServerAddon.Prefix + sb;
+      String message = FeloToolsAddon.Prefix + sb;
       this.displayMessage(Component.text(message, textColor));
     } else {
-      String message = SendServerAddon.Prefix + I18n.translate(translationKey, arguments);
+      String message = FeloToolsAddon.Prefix + I18n.translate(translationKey, arguments);
       this.displayMessage(Component.text(message, textColor));
     }
   }
