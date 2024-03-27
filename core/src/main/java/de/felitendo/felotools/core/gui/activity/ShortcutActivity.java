@@ -1,7 +1,7 @@
-package de.dojaphd.sendserver.core.gui.activity;
+package de.felitendo.felotools.core.gui.activity;
 
-import de.dojaphd.sendserver.core.SendServerAddon;
-import de.dojaphd.sendserver.core.ShortcutManager;
+import de.felitendo.felotools.core.SendServerAddon;
+import de.felitendo.felotools.core.ShortcutManager;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Objects;

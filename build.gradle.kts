@@ -8,12 +8,12 @@ plugins {
 java.toolchain.languageVersion.set(JavaLanguageVersion.of(17))
 
 labyMod {
-    defaultPackageName = "de.dojaphd.sendserver.core" //change this to your main package name (used by all modules)
+    defaultPackageName = "de.felitendo.felotools" //change this to your main package name (used by all modules)
     addonInfo {
-        namespace = "sendserveraddon"
-        displayName = "Send To Server"
-        author = "DoJapHD"
-        description = "Easy to use, command based way, to switch between server. '/ssahelp' for more information."
+        namespace = "felotools"
+        displayName = "Felo Tools"
+        author = "Felitendo"
+        description = "Easy to use, quality of life features packed into one Addon. '/fthelp' for more information."
         minecraftVersion = "*"
         version = System.getenv().getOrDefault("VERSION", "0.0.1")
     }

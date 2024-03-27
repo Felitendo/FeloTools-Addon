@@ -1,6 +1,6 @@
-package de.dojaphd.sendserver.core;
+package de.felitendo.felotools.core;
 
-import de.dojaphd.sendserver.core.gui.activity.ShortcutActivity;
+import de.felitendo.felotools.core.gui.activity.ShortcutActivity;
 import java.util.HashMap;
 import java.util.Map;
 import net.labymod.api.addon.AddonConfig;

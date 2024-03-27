@@ -1,6 +1,6 @@
-package de.dojaphd.sendserver.core.gui.activity;
+package de.felitendo.felotools.core.gui.activity;
 
-import de.dojaphd.sendserver.core.ShortcutManager;
+import de.felitendo.felotools.core.ShortcutManager;
 import net.labymod.api.client.component.Component;
 import net.labymod.api.client.gui.lss.property.annotation.AutoWidget;
 import net.labymod.api.client.gui.screen.Parent;

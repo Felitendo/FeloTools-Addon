@@ -1,8 +1,8 @@
-package de.dojaphd.sendserver.core;
+package de.felitendo.felotools.core;
 
-import de.dojaphd.sendserver.core.commands.HelpCommand;
-import de.dojaphd.sendserver.core.commands.MenuOpenerCommand;
-import de.dojaphd.sendserver.core.commands.SendCommand;
+import de.felitendo.felotools.core.commands.HelpCommand;
+import de.felitendo.felotools.core.commands.MenuOpenerCommand;
+import de.felitendo.felotools.core.commands.SendCommand;
 import java.util.Map;
 import javax.inject.Singleton;
 import net.labymod.api.addon.LabyAddon;

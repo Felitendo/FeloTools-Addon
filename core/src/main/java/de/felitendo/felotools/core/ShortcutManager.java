@@ -1,4 +1,4 @@
-package de.dojaphd.sendserver.core;
+package de.felitendo.felotools.core;
 
 import net.labymod.api.client.component.TextComponent;
 import net.labymod.api.client.component.serializer.legacy.LegacyComponentSerializer;

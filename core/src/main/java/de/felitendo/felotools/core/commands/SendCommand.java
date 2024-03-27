@@ -1,7 +1,7 @@
-package de.dojaphd.sendserver.core.commands;
+package de.felitendo.felotools.core.commands;
 
-import de.dojaphd.sendserver.core.SendServerAddon;
-import de.dojaphd.sendserver.core.ShortcutManager;
+import de.felitendo.felotools.core.SendServerAddon;
+import de.felitendo.felotools.core.ShortcutManager;
 import net.labymod.api.client.chat.command.Command;
 import net.labymod.api.client.component.Component;
 import net.labymod.api.client.component.format.NamedTextColor;
