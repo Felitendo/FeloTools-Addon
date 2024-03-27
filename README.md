@@ -1,8 +1,8 @@
-<h1 align="center">SendToServer <img src="https://em-content.zobj.net/thumbs/160/twitter/322/linked-paperclips_1f587-fe0f.png" width="30" alt="Link emoji"></h1>
-<p align="center">Never again to the server list! <img src="https://em-content.zobj.net/thumbs/160/twitter/322/fire_1f525.png" width="15" alt="Fire emoji"></p>
+<h1 align="center">FeloTools
+<p align="center">An important Quality of Life Addon for LabyMod 4! <img src="https://em-content.zobj.net/thumbs/160/twitter/322/fire_1f525.png" width="15" alt="Fire emoji"></p>
 
 <h3>🤖 How it works</h3>
-<p>SendToServer is an addon developed for <a href="https://labymod.net/">LabyMod</a> that enables you to switch servers via a shortcut set in the addon settings.</p>
+<p>FeloTools is an addon developed for <a href="https://labymod.net/">LabyMod</a> that adds several features and utilities.</p>
 
 ![LM4-SendServer-ChatMSGs](https://user-images.githubusercontent.com/63593457/189342973-e7cc6672-7f31-44e2-81a6-b2a68078ae7d.png)
 
