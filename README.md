@@ -31,3 +31,6 @@ criticism! :)
 <br>
 <h3>📬 Contact</h3>
 If you have any questions, requests or problems feel free to contact me on <a href="https://discord.com/users/636944483681828885"><b>Discord</b></a>!
+
+<h3>TODO</h3>
+<p>- Install Script</p>
