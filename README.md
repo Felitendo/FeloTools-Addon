@@ -34,3 +34,4 @@ If you have any questions, requests or problems feel free to contact me on <a hr
 
 <h3>TODO</h3>
 <p>- Install Script</p>
+<p>- Fix Bugs with #14</p>
