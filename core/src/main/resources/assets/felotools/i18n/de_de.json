@@ -33,7 +33,17 @@
       },
       "help": {
         "msg1": "§a--------- §6Hilfe §a---------",
-        "msg2": "§6/ssahelp §7» §aSendet diese Hilfe-Nachricht.",
+        "msg2": "§6/fthelp §7» §aSendet diese Hilfe-Nachricht.",
+        "msg3": "§a-----------------------"
+      },
+      "pvp_new": {
+        "msg1": "§a--------- §6PvP Modus §a---------",
+        "msg2": "§6PvP Modus wurde auf 'new' gesetzt! §e(1.20.4)",
+        "msg3": "§a-----------------------"
+      },
+      "pvp_old": {
+        "msg1": "§a--------- §6PvP Modus §a---------",
+        "msg2": "§6PvP Modus wurde auf 'old' gesetzt! §e(1.8.9)",
         "msg3": "§a-----------------------"
       }
     }

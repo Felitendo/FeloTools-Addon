@@ -1,8 +1,8 @@
 package de.felitendo.felotools.core;
 
-import de.felitendo.felotools.core.commands.HelpCommand;
-import java.util.Map;
+import de.felitendo.felotools.core.commands.Help;
 import javax.inject.Singleton;
+import de.felitendo.felotools.core.commands.PvP;
 import net.labymod.api.addon.LabyAddon;
 import net.labymod.api.event.labymod.config.ConfigurationSaveEvent;
 import net.labymod.api.models.addon.annotation.AddonMain;
@@ -31,7 +31,8 @@ public class FeloToolsAddon extends LabyAddon<AddonConfiguration> {
 
   //Register Commands here
   private void init() {
-    this.registerCommand(new HelpCommand(this));
+    this.registerCommand(new Help(this));
+    this.registerCommand(new PvP(this));
   }
 
   @Override

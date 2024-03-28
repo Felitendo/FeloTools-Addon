@@ -7,12 +7,12 @@ import net.labymod.api.client.component.format.NamedTextColor;
 import net.labymod.api.client.component.format.TextColor;
 import net.labymod.api.util.I18n;
 
-public class HelpCommand extends Command {
+public class Help extends Command {
 
   private final String syntax = "/fthelp";
   private final FeloToolsAddon addon;
 
-  public HelpCommand(FeloToolsAddon addon) {
+  public Help(FeloToolsAddon addon) {
     super("fthelp");
     this.addon = addon;
   }
