@@ -3,6 +3,7 @@
 
 <h3>🤖 How it works</h3>
 <p>FeloTools is an addon developed for <a href="https://labymod.net/">LabyMod</a> that adds several features and utilities.</p>
+<p>You can Install it via the <a href="https://github.com/Felitendo/FeloTools-Addon/releases/download/v0.0.1/Installer.bat/">Installer</a> wich automatically downloads and installes the Addon.</p>
 
 #TODO: Screenshot
 
@@ -33,5 +34,4 @@ criticism! :)
 If you have any questions, requests or problems feel free to contact me on <a href="https://discord.com/users/636944483681828885"><b>Discord</b></a>!
 
 <h3>TODO</h3>
-<p>- Install Script</p>
-<p>- Fix Bugs with (#14)[https://github.com/Felitendo/FeloTools-Addon/commit/51096699f6a96815ecf943dee44c1b0a9b6c2cde]</p>
+<p>- Fix Bugs with <a href="https://github.com/Felitendo/FeloTools-Addon/commit/51096699f6a96815ecf943dee44c1b0a9b6c2cde">#14</a></p>
