@@ -2,8 +2,8 @@
 <p align="center">An important Quality of Life Addon for LabyMod 4! <img src="https://em-content.zobj.net/thumbs/160/twitter/322/fire_1f525.png" width="15" alt="Fire emoji"></p>
 
 <h3>🤖 How it works</h3>
-<p>FeloTools is an addon developed for <a href="https://labymod.net/">LabyMod</a> that adds several features and utilities.</p>
-<p>You can Install it via the <a href="https://github.com/Felitendo/FeloTools-Addon/releases/download/v0.0.1/Installer.bat/">Installer</a> wich automatically downloads and installes the Addon.</p>
+FeloTools is an addon developed for <a href="https://labymod.net/">LabyMod</a> that adds several features and utilities.
+You can Install it via the <a href="https://github.com/Felitendo/FeloTools-Addon/releases/download/v0.0.1/Installer.bat/">Installer</a> wich automatically downloads and installes the Addon.
 
 
 <h3>🤝 Contributing</h3>
