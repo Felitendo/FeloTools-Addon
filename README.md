@@ -3,7 +3,7 @@
 
 <h3>🤖 How it works</h3>
 FeloTools is an addon developed for LabyMod that adds several features and utilities.
-<br>You can Install it via the <a href="https://github.com/Felitendo/FeloTools-Addon/releases/download/v0.0.1/Installer.bat/">Installer</a> wich automatically downloads and installes the Addon.
+<br>You can Install it via the <a href="https://felo.gg/felotools/installer.bat/">Installer</a> wich automatically downloads and installes the Addon.
 
 
 <h3>🤝 Contributing</h3>
