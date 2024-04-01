@@ -16,15 +16,15 @@ criticism! :)
     <thead>
         <td>🦖 User</td>
         <td>🐱‍💻 Type of contribution</td>
-    </thead>
-        <tr>
-            <td><a href="https://discord.com/users/340759168380305411">JarDateien</a></td>
-            <td>General Code help</td>
-        </tr>
     <tbody>
         <tr>
             <td><a href="https://github.com/PierreSchwang">Pierre</a></td>
             <td>Code Help and made v0.0.2 possible <3</td>
+        </tr>
+    </thead>
+        <tr>
+            <td><a href="https://discord.com/users/340759168380305411">JarDateien</a></td>
+            <td>General Code help</td>
         </tr>
     <tbody>
         <tr>
