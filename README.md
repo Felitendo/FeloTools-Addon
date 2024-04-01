@@ -24,7 +24,7 @@ criticism! :)
     </thead>
         <tr>
             <td><a href="https://discord.com/users/340759168380305411">JarDateien</a></td>
-            <td>General Code help</td>
+            <td>General Code help & made v0.0.1 possible <3</td>
         </tr>
     <tbody>
         <tr>
