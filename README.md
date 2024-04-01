@@ -19,7 +19,7 @@ criticism! :)
     <tbody>
         <tr>
             <td><a href="https://github.com/PierreSchwang">Pierre</a></td>
-            <td>Code Help and made v0.0.2 possible <3</td>
+            <td>General Code Help & made v0.0.2 possible <3</td>
         </tr>
     </thead>
         <tr>
