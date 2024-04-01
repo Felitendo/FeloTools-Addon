@@ -3,24 +3,24 @@
     "settings": {
       "name": "FeloTools",
       "enabled": {
-        "name": "Aktiviert"
+        "name": "Activated"
       },
       "openNameTags": {
-        "name": "Shortcuts bearbeiten"
+        "name": "Edit Shortcuts"
       }
     },
     "gui": {
       "manage": {
-        "add": "Neuen Shortcut hinzufügen",
+        "add": "Add a new Shortcut",
         "name": "Shortcut",
         "custom": {
           "name": "Server IP"
         },
         "enabled": {
-          "name": "Aktiviert"
+          "name": "Disabled"
         },
         "remove": {
-          "title": "Möchtest du diesen Eintrag wirklich löschen?"
+          "title": "Do you really want to delete this Title?"
         }
       },
       "navigation": {
@@ -32,18 +32,24 @@
         "syntax": "§cSyntax: %s"
       },
       "help": {
-        "msg1": "§a--------- §6Hilfe §a---------",
-        "msg2": "§6/fthelp §7» §aSendet diese Hilfe-Nachricht.",
+        "msg1": "§a--------- §6Help §a---------",
+        "msg2": "§6/fthelp §7» §aSends this Help Message.",
         "msg3": "§a-----------------------"
+      },
+      "pvp": {
+        "msg1": "§a--------- §6Help §a---------",
+        "msg2": "§6/ftpvp old §7» §aSets PvP Mode to 'old'. §e(1.8.9)",
+        "msg3": "§6/ftpvp new §7» §aSets PvP Mode to 'new'. §e(1.20.4)",
+        "msg4": "§a-----------------------"
       },
       "pvp_new": {
         "msg1": "§a--------- §6PvP Modus §a---------",
-        "msg2": "§6PvP Modus wurde auf 'new' gesetzt! §e(1.20.4)",
+        "msg2": "§6PvP Mode was set to 'new'! §e(1.20.4)",
         "msg3": "§a-----------------------"
       },
       "pvp_old": {
         "msg1": "§a--------- §6PvP Modus §a---------",
-        "msg2": "§6PvP Modus wurde auf 'old' gesetzt! §e(1.8.9)",
+        "msg2": "§6PvP Mode was set to 'old'! §e(1.8.9)",
         "msg3": "§a-----------------------"
       }
     }

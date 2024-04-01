@@ -24,7 +24,10 @@ public class PvP extends Command {
   public boolean execute(String prefix, String[] arguments) {
     if (prefix.equalsIgnoreCase("ftpvp")) {
       {
-        sendMessage();
+        if (arguments.length == 0) {
+          sendMessage();
+        }
+
       }
       return true;
     }
