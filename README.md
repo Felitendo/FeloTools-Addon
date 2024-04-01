@@ -37,4 +37,4 @@ criticism! :)
 If you have any questions, requests or problems feel free to contact me on <a href="https://discord.com/users/636944483681828885"><b>Discord</b></a>!
 
 <h3>TODO</h3>
-<p>- EMPTY</a></p>
+<p>- /ftcoords (to copy coords)</a></p>
