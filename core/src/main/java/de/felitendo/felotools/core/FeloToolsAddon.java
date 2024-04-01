@@ -1,5 +1,6 @@
 package de.felitendo.felotools.core;
 
+import de.felitendo.felotools.core.commands.Coords;
 import de.felitendo.felotools.core.commands.Help;
 import javax.inject.Singleton;
 import de.felitendo.felotools.core.commands.PvP;
@@ -33,6 +34,7 @@ public class FeloToolsAddon extends LabyAddon<AddonConfiguration> {
   private void init() {
     this.registerCommand(new Help(this));
     this.registerCommand(new PvP(this));
+    this.registerCommand(new Coords(this));
   }
 
   @Override

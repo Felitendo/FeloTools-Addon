@@ -35,7 +35,8 @@
         "msg1": "§a--------- §6Help §a---------",
         "msg2": "§6/fthelp §7» §aSends this Help Message.",
         "msg3": "§6/ftpvp §7» §aChanges the PvP Mode.",
-        "msg3": "§a-----------------------"
+        "msg4": "§6/ftcoords §7» §aCopies your Coords.",
+        "msg5": "§a-----------------------"
       },
       "pvp": {
         "msg1": "§a--------- §6Help §a---------",
@@ -45,12 +46,17 @@
       },
       "pvp_new": {
         "msg1": "§a--------- §6PvP Mode §a---------",
-        "msg2": "§6PvP Mode was set to 'new'! §e(1.20.4)",
+        "msg2": "§aPvP Mode was set to 'new'! §e(1.20.4)",
         "msg3": "§a-----------------------"
       },
       "pvp_old": {
         "msg1": "§a--------- §6PvP Mode §a---------",
-        "msg2": "§6PvP Mode was set to 'old'! §e(1.8.9)",
+        "msg2": "§aPvP Mode was set to 'old'! §e(1.8.9)",
+        "msg3": "§a-----------------------"
+      },
+      "coords": {
+        "msg1": "§a--------- §6Coords §a---------",
+        "msg2": "§aYour Coords have been copied.",
         "msg3": "§a-----------------------"
       }
     }
