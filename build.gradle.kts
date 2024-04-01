@@ -11,7 +11,7 @@ labyMod {
     defaultPackageName = "de.felitendo.felotools" //change this to your main package name (used by all modules)
     addonInfo {
         namespace = "felotools"
-        displayName = "Felo Tools"
+        displayName = "FeloTools"
         author = "Felitendo"
         description = "Easy to use, quality of life features packed into one Addon. '/fthelp' for more information."
         minecraftVersion = "*"
