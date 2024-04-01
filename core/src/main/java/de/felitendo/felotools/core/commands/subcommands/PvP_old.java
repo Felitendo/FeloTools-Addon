@@ -34,7 +34,7 @@ public class PvP_old extends SubCommand {
     labyAPI().config().multiplayer().classicPvP().oldSword().set(true);
     labyAPI().config().multiplayer().classicPvP().potionFix().set(true);
     labyAPI().config().multiplayer().classicPvP().shouldRemoveRecipeBook().set(true);
-    return false;
+    return true;
   }
 
   public void sendMessage() {

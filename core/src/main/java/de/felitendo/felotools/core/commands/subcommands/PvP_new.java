@@ -14,29 +14,26 @@ public class PvP_new extends SubCommand {
 
   @Override
   public boolean execute(String prefix, String[] arguments) {
-    if (arguments.length == 2) {
-      labyAPI().config().multiplayer().classicPvP().oldBackwards().set(false);
-      labyAPI().config().multiplayer().classicPvP().oldBlockBuild().set(false);
-      labyAPI().config().multiplayer().classicPvP().oldBow().set(false);
-      labyAPI().config().multiplayer().classicPvP().oldCreativeLayout().set(false);
-      labyAPI().config().multiplayer().classicPvP().oldDamageColor().set(false);
-      labyAPI().config().multiplayer().classicPvP().oldFishingRod().set(false);
-      labyAPI().config().multiplayer().classicPvP().oldFood().set(false);
-      labyAPI().config().multiplayer().classicPvP().oldHeadRotation().set(false);
-      labyAPI().config().multiplayer().classicPvP().oldHeart().set(false);
-      labyAPI().config().multiplayer().classicPvP().oldHitbox().set(false);
-      labyAPI().config().multiplayer().classicPvP().oldItemPosture().set(false);
-      labyAPI().config().multiplayer().classicPvP().oldRange().set(false);
-      labyAPI().config().multiplayer().classicPvP().oldSlowdown().set(false);
-      labyAPI().config().multiplayer().classicPvP().oldSneaking().set(false);
-      labyAPI().config().multiplayer().classicPvP().oldSurvivalLayout().set(false);
-      labyAPI().config().multiplayer().classicPvP().oldBackwards().set(false);
-      labyAPI().config().multiplayer().classicPvP().oldSword().set(false);
-      labyAPI().config().multiplayer().classicPvP().potionFix().set(false);
-      labyAPI().config().multiplayer().classicPvP().shouldRemoveRecipeBook().set(false);
-      sendMessage();
-      return false;
-    }
+    sendMessage();
+    labyAPI().config().multiplayer().classicPvP().oldBackwards().set(false);
+    labyAPI().config().multiplayer().classicPvP().oldBlockBuild().set(false);
+    labyAPI().config().multiplayer().classicPvP().oldBow().set(false);
+    labyAPI().config().multiplayer().classicPvP().oldCreativeLayout().set(false);
+    labyAPI().config().multiplayer().classicPvP().oldDamageColor().set(false);
+    labyAPI().config().multiplayer().classicPvP().oldFishingRod().set(false);
+    labyAPI().config().multiplayer().classicPvP().oldFood().set(false);
+    labyAPI().config().multiplayer().classicPvP().oldHeadRotation().set(false);
+    labyAPI().config().multiplayer().classicPvP().oldHeart().set(false);
+    labyAPI().config().multiplayer().classicPvP().oldHitbox().set(false);
+    labyAPI().config().multiplayer().classicPvP().oldItemPosture().set(false);
+    labyAPI().config().multiplayer().classicPvP().oldRange().set(false);
+    labyAPI().config().multiplayer().classicPvP().oldSlowdown().set(false);
+    labyAPI().config().multiplayer().classicPvP().oldSneaking().set(false);
+    labyAPI().config().multiplayer().classicPvP().oldSurvivalLayout().set(false);
+    labyAPI().config().multiplayer().classicPvP().oldBackwards().set(false);
+    labyAPI().config().multiplayer().classicPvP().oldSword().set(false);
+    labyAPI().config().multiplayer().classicPvP().potionFix().set(false);
+    labyAPI().config().multiplayer().classicPvP().shouldRemoveRecipeBook().set(false);
     return true;
   }
 

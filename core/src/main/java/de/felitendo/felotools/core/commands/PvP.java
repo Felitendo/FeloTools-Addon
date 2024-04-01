@@ -24,14 +24,13 @@ public class PvP extends Command {
   public boolean execute(String prefix, String[] arguments) {
     if (prefix.equalsIgnoreCase("ftpvp")) {
       {
-        if (arguments.length == 0) {
+        if (arguments.length == 2) {
           sendMessage();
         }
-
       }
-      return true;
+      return false;
     }
-    return false;
+    return true;
   }
 
   public void sendMessage() {
