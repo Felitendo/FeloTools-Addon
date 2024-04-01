@@ -35,17 +35,18 @@ public class Help extends Command {
     displayTranslatableMsg("felotools.commands.help.msg1", NamedTextColor.GREEN);
     displayTranslatableMsg("felotools.commands.help.msg2", NamedTextColor.GREEN);
     displayTranslatableMsg("felotools.commands.help.msg3", NamedTextColor.GREEN);
+    displayTranslatableMsg("felotools.commands.help.msg4", NamedTextColor.GREEN);
   }
 
   private void displayTranslatableMsg(String key, TextColor textColor, Object... arguments) {
     String translationKey = key;
 
-    if (key.equals("help.msg3")) {
+    if (key.equals("help.msg4")) {
       String translation = I18n.translate("felotools.commands.help.msg1");
       String HelpWorldlengthFirstSplit = translation.split("§6")[1];
       int HelpWorldlengthSecondSplitLength = HelpWorldlengthFirstSplit.split(" §a")[0].length();
-      StringBuilder sb = new StringBuilder(I18n.translate("felotools.commands.help.msg3"));
-      for (int i = 0; i < HelpWorldlengthSecondSplitLength - 3; i++) {
+      StringBuilder sb = new StringBuilder(I18n.translate("felotools.commands.help.msg4"));
+      for (int i = 0; i < HelpWorldlengthSecondSplitLength - 4; i++) {
         sb.append("-");
       }
       String message = FeloToolsAddon.Prefix + sb;

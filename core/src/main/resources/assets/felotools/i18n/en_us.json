@@ -34,21 +34,22 @@
       "help": {
         "msg1": "§a--------- §6Help §a---------",
         "msg2": "§6/fthelp §7» §aSends this Help Message.",
+        "msg3": "§6/ftpvp §7» §aChanges the PvP Mode.",
         "msg3": "§a-----------------------"
       },
       "pvp": {
         "msg1": "§a--------- §6Help §a---------",
-        "msg2": "§6/ftpvp old §7» §aSets PvP Mode to 'old'. §e(1.8.9)",
-        "msg3": "§6/ftpvp new §7» §aSets PvP Mode to 'new'. §e(1.20.4)",
+        "msg2": "§6/ftpvp old §7» §aSets PvP Mode to 'old' §e(1.8.9)",
+        "msg3": "§6/ftpvp new §7» §aSets PvP Mode to 'new' §e(1.20.4)",
         "msg4": "§a-----------------------"
       },
       "pvp_new": {
-        "msg1": "§a--------- §6PvP Modus §a---------",
+        "msg1": "§a--------- §6PvP Mode §a---------",
         "msg2": "§6PvP Mode was set to 'new'! §e(1.20.4)",
         "msg3": "§a-----------------------"
       },
       "pvp_old": {
-        "msg1": "§a--------- §6PvP Modus §a---------",
+        "msg1": "§a--------- §6PvP Mode §a---------",
         "msg2": "§6PvP Mode was set to 'old'! §e(1.8.9)",
         "msg3": "§a-----------------------"
       }

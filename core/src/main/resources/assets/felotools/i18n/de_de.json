@@ -3,24 +3,24 @@
     "settings": {
       "name": "FeloTools",
       "enabled": {
-        "name": "Activated"
+        "name": "Aktiviert"
       },
       "openNameTags": {
-        "name": "Edit Shortcuts"
+        "name": "Bearbeite Shortcuts"
       }
     },
     "gui": {
       "manage": {
-        "add": "Add a new Shortcut",
+        "add": "Füge einen neuen Shortcut hinzu",
         "name": "Shortcut",
         "custom": {
           "name": "Server IP"
         },
         "enabled": {
-          "name": "Disabled"
+          "name": "Deaktiviert"
         },
         "remove": {
-          "title": "Do you really want to delete this Title?"
+          "title": "Willst du diesen Titel wirklich löschen?"
         }
       },
       "navigation": {
@@ -33,23 +33,24 @@
       },
       "help": {
         "msg1": "§a--------- §6Help §a---------",
-        "msg2": "§6/fthelp §7» §aSends this Help Message.",
-        "msg3": "§a-----------------------"
+        "msg2": "§6/fthelp §7» §aSendet diese Nachricht.",
+        "msg3": "§6/ftpvp §7» §aStellt den PvP Modus um.",
+        "msg4": "§a-----------------------"
       },
       "pvp": {
-        "msg1": "§a--------- §6Help §a---------",
-        "msg2": "§6/ftpvp old §7» §aSets PvP Mode to 'old'. §e(1.8.9)",
-        "msg3": "§6/ftpvp new §7» §aSets PvP Mode to 'new'. §e(1.20.4)",
+        "msg1": "§a--------- §6Hilfe §a---------",
+        "msg2": "§6/ftpvp old §7» §aSetzt PvP Modus auf 'old' §e(1.8.9)",
+        "msg3": "§6/ftpvp new §7» §aSetzt PvP Modus auf 'new' §e(1.20.4)",
         "msg4": "§a-----------------------"
       },
       "pvp_new": {
         "msg1": "§a--------- §6PvP Modus §a---------",
-        "msg2": "§6PvP Mode was set to 'new'! §e(1.20.4)",
+        "msg2": "§6PvP Modus wurde auf 'new' gesetzt! §e(1.20.4)",
         "msg3": "§a-----------------------"
       },
       "pvp_old": {
         "msg1": "§a--------- §6PvP Modus §a---------",
-        "msg2": "§6PvP Mode was set to 'old'! §e(1.8.9)",
+        "msg2": "§6PvP Modus wurde auf 'old' gesetzt! §e(1.8.9)",
         "msg3": "§a-----------------------"
       }
     }
