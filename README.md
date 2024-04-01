@@ -23,6 +23,11 @@ criticism! :)
         </tr>
     <tbody>
         <tr>
+            <td><a href="https://github.com/PierreSchwang">Pierre</a></td>
+            <td>Code Help and made v0.0.2 possible <3</td>
+        </tr>
+    <tbody>
+        <tr>
             <td><a href="https://github.com/DoJapHD">DoJapHD</a></td>
             <td>Base Code</td>
         </tr>
@@ -32,4 +37,4 @@ criticism! :)
 If you have any questions, requests or problems feel free to contact me on <a href="https://discord.com/users/636944483681828885"><b>Discord</b></a>!
 
 <h3>TODO</h3>
-<p>- Fix Bugs with <a href="https://github.com/Felitendo/FeloTools-Addon/commit/51096699f6a96815ecf943dee44c1b0a9b6c2cde">#14</a></p>
+<p>- EMPTY</a></p>
