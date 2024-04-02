@@ -14,7 +14,7 @@ labyMod {
         displayName = "FeloTools"
         author = "Felitendo"
         description = "Easy to use, quality of life features packed into one Addon. '/fthelp' for more information."
-        minecraftVersion = "*"
+        minecraftVersion = "1.16.1<*"
         version = System.getenv().getOrDefault("VERSION", "0.0.1")
     }
 
