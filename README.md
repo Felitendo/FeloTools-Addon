@@ -19,12 +19,12 @@ criticism! :)
     <tbody>
         <tr>
             <td><a href="https://github.com/PierreSchwang">Pierre</a></td>
-            <td>General Code Help & made v0.0.2 possible <3</td>
+            <td>General Code Help <3</td>
         </tr>
     </thead>
         <tr>
             <td><a href="https://discord.com/users/340759168380305411">JarDateien</a></td>
-            <td>General Code help & made v0.0.1 possible <3</td>
+            <td>General Code help <3</td>
         </tr>
     <tbody>
         <tr>
