@@ -3,7 +3,7 @@
 
 <h3>🤖 How it works</h3>
 FeloTools is an Addon developed for LabyMod that adds several useful features and utilities.
-<br>You can Install it via the <a href="https://felo.gg/felotools/installer.bat/">Installer</a> wich automatically downloads and installes the Addon.
+<br>You can Install it via the <a href="https://felo.gg/felotools/installer.bat/">Installer</a> wich automatically downloads and installes/updates the Addon.
 
 
 <h3>🤝 Contributing</h3>
@@ -19,12 +19,12 @@ criticism! :)
     <tbody>
         <tr>
             <td><a href="https://github.com/PierreSchwang">Pierre</a></td>
-            <td>General Code Help & made v0.0.2 possible <3</td>
+            <td>General Code Help <3</td>
         </tr>
     </thead>
         <tr>
             <td><a href="https://discord.com/users/340759168380305411">JarDateien</a></td>
-            <td>General Code help & made v0.0.1 possible <3</td>
+            <td>General Code help <3</td>
         </tr>
     <tbody>
         <tr>
@@ -37,4 +37,4 @@ criticism! :)
 If you have any questions, requests or problems feel free to contact me on <a href="https://discord.com/users/636944483681828885"><b>Discord</b></a>!
 
 <h3>TODO</h3>
-<p>- /ftcoords (to copy coords)</a></p>
+<p>- /</a></p>
