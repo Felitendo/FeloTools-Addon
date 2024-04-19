@@ -1,5 +1,5 @@
 <h1 align="center">FeloTools
-<p align="center">An important Quality of Life Addon for LabyMod 4! <img src="https://em-content.zobj.net/thumbs/160/twitter/322/fire_1f525.png" width="15" alt="Fire emoji"></p>
+<p align="center"> <img src="https://em-content.zobj.net/thumbs/160/twitter/322/fire_1f525.png" width="15" alt="Fire emoji"> An important Quality of Life Addon for LabyMod 4! <img src="https://em-content.zobj.net/thumbs/160/twitter/322/fire_1f525.png" width="15" alt="Fire emoji"></p>
 
 <h3>🤖 How it works</h3>
 FeloTools is an Addon developed for LabyMod that adds several useful features and utilities.
